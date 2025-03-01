@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velora - Skincare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="header">
+    <div id="logo">Velora</div>
+
+    <nav id="navbar" class="nav">
+      <a href="#" class="nav-link">Home</a>
+      <a href="#" class="nav-link">Shop</a>
+      <a href="#" class="nav-link">Products</a>
+      <a href="#" class="nav-link">About Us</a>
+      <a href="#" class="nav-link">Contact</a>
+    </nav>
+
+    <div id="burger" class="burger" onclick="toggleMenu()">
+      <div class="burger-line"></div>
+      <div class="burger-line"></div>
+      <div class="burger-line"></div>
+    </div>
+  </header>
+  <main>
+    
+    <div class="header-container">
+        <div class="container-text-img">
+          <div class="text-content">
+            <p>
+              <span class="line1">Let Your Skin Speak,</span><br>
+              <span class="line2">You Shine.</span>
+            </p>
+            <p class=" header-subtitle">"Because True Beauty Isn’t Just About What Others See – 
+              It’s About How You Feel in Your Own Skin, Embracing Your Natural Glow, and Loving Yourself More with Every Touch of Care."</p>
+          </p>
+          </div>
+          <img class="img-header" src="./foto-skincare/pexels-rdne-8903708.jpg" alt="Skincare Image">
+        </div>
+      </div>
+
+
+      <div class="why-choose-container">
+        <div class="title">
+          <p>Why choose our brand</p>
+        </div>
+        <div class="features">
+          <div class="feature feature-1">
+            <p class="feature-title">Cruelty-Free</p>
+            <p class="feature-desc">Beauty without harm, kindness in every product.</p>
+          </div>
+          <div class="feature feature-2">
+            <p class="feature-title">100% Organic</p>
+            <p class="feature-desc">Pure ingredients for healthy, glowing skin.</p>
+          </div>
+          <div class="feature feature-3">
+            <p class="feature-title">Paraben-Free</p>
+            <p class="feature-desc">No harsh chemicals, just natural care.</p>
+          </div>
+        </div>
+      </div>
+      
+
+<!-- 
+
+      <div>
+        <div>
+          <img src="./foto-skincare/pexels-prlshn-29752560.jpg">
+          <img src="./foto-skincare/pexels-julia-kondratovskaya-49213852-11672348.jpg">
+        </div>
+        <div>
+          <p>Our Story</p>
+          <p>"Born from a passion for pure, effective skincare, our journey began with a simple goal: to bring nature’s best to your daily routine. We believe in transparency, sustainability, and creating products that not only nourish your skin but also respect the planet. Every formula is
+             thoughtfully crafted, combining gentle ingredients with proven results — because your skin deserves the very best."</p>
+        </div>
+      </div> -->
+
+      <div class="our-story-container">
+        <div class="images-container">
+          <img src="./foto-skincare/pexels-prlshn-29752560.jpg" alt="Skincare Image 1">
+          <img src="./foto-skincare/pexels-julia-kondratovskaya-49213852-11672348.jpg" alt="Skincare Image 2">
+        </div>
+        <div class="text-container">
+          <p class="title">Our Story</p>
+          <p class="description">
+            "Born from a passion for pure, effective skincare, our journey began with a simple goal: to bring nature’s best to your daily routine.  
+            We believe in transparency, sustainability, and creating products that not only nourish your skin but also respect the planet.  
+            Every formula is thoughtfully crafted, combining gentle ingredients with proven results — because your skin deserves the very best."
+          </p>
+        </div>
+      </div>
+
+ 
+
+
+
+    <div class="question-container">
+      <div class="container">
+          <h1>"Discover Your Beauty Up Close!"</h1>
+          <p>"Get to know your skin in the best way! In just 3 steps, find the product that suits your skin and bring out your beauty."</p>
+          <button class="start-btn">Discover Your Beauty</button>
+      </div>
+  
+      <div class="questionnaire" style="display: none;">
+          <div class="question" id="question1">
+              <p>What is your skin type?</p>
+              <div class="options">
+                  <div class="option" id="option1">Oily</div>
+                  <div class="option" id="option2">Dry</div>
+                  <div class="option" id="option3">Combination</div>
+              </div>
+          </div>
+  
+          <div class="question" id="question2" style="display: none;">
+              <p>What are you targeting?</p>
+              <div class="options">
+                  <div class="option" id="option4">Acne</div>
+                  <div class="option" id="option5">Wrinkles</div>
+                  <div class="option" id="option6">Irregular Tone</div>
+              </div>
+          </div>
+  
+          <div class="question" id="question3" style="display: none;">
+              <p>What is your budget?</p>
+              <div class="options">
+                  <div class="option" id="option7">Low (10-20 AZN)</div>
+                  <div class="option" id="option8">Medium (20-50 AZN)</div>
+                  <div class="option" id="option9">High (50+ AZN)</div>
+              </div>
+          </div>
+  
+          <div class="result" style="display: none;">
+              <h2>Recommended Product</h2>
+              <p id="resultText"></p>
+          </div>
+      </div>
+  </div>
+  
+      
+</main>
+
+  
+
+  <script src="app.js">
+  </script>
+
+</body>
+</html>
